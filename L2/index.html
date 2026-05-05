@@ -1,37 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>Laboratorium 3 - CSS</p>
-    <div>lorem*10
-    </div>
-    <p>A to jest przykładowy odnośnik <a href="https://www.w3schools.com/css/default.asp" target="blank">do kursu CSS</a></p>
-    <table>
-        <tr>
-            <td>To</td>
-            <td>jest</td>
-            <td>przykładowa</td>
-        <td>tabela</td>
-    </tr>
-    <tr>
-        <td>a to</td>
-        <td>jest</td>
-        <td colspan="2">dłuższa komórka</td>
-    </tr>
-    <tr>
-        <td colspan="2">to też</td>
-        <td>jest</td>
-        <td>dłuższa komórka</td>
-    </tr>
-    </table>
-    <p>A ten tekst trzeba będzie ciekawie pokolorować</p>
-    <ul>
-        <li>A tutaj pobawimy się</li>
-        <li>punktorami w listach</li>
-    </ul>
-</body>
+<html lang = "pl">
+    <head>
+        <meta charset = "utf-8"/>
+        <meta name = "author" content = "Hubert Skowron"/>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
+        <title>Programowanie WSIiZ</title>
+    </head>
+
+    <body>
+        <div><a href="index.html">Strona 1</a></div>
+        <div><a href="podstrona.html">Strona 2</a></div>
+
+        <h1>Hubert Skowron</h1>
+        <p>W Szczebrzeszynie chrząszcz brzmi w trzcinie</p>
+
+        <h2>Zainteresowania</h2>
+        <ul>
+            <li>gry komputerowe</li>
+            <li>oglądanie seriali</li>
+        </ul>
+
+        <ol>
+            <li>hazard</li>
+            <li>granie w gry znowu</li>
+        </ol>
+
+        <br><br><br>
+
+        <p>
+            Oto link do strony <a href="https://wsiz.edu.pl/">uczelni</a>
+        </p>
+
+        <table border="1">
+            <tr>
+                <td>Lp.</td>
+                <td>Imię</td>
+                <td>Nazwisko</td>
+                <td>Oceny</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Antek</td>
+                <td>Attic</td>
+                <td>5, 5, 5</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Kajetan</td>
+                <td>Koźmiński</td>
+                <td>5, 6, 5</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Filip</td>
+                <td>Olino</td>
+                <td>3, 2, 0</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Julian</td>
+                <td>Pociągowy</td>
+                <td>3, 0, 0</td>
+            </tr>
+        </table>
+
+        <br>
+        
+        <table border="1">
+            <tr>
+                <td colspan="2">1</td>
+                <td>2</td>
+                <td rowspan="2">3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td rowspan="3">7</td>
+                <td>8</td>
+                <td colspan="2" rowspan="2">9</td>
+            </tr>
+            <tr>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td colspan="3">11</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <iframe 
+            src="https://maps.google.com/maps?q=WSIiZ%20Rzesz%C3%B3w,%20Sucharskiego%202&output=embed" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </body>
 </html>
